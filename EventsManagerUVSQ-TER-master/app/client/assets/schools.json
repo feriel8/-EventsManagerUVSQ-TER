@@ -1,0 +1,30 @@
+{
+    "esi.dz": { 
+        "school": "ESI | ECOLE SUPERIEURE D INFORMATIQUE",
+        "state": "ALGER"
+    },
+    "g.enp.edu.dz": {
+        "school": "ENP | ECOLE NATIONALE POLYTECHNIQUE D'ALGER",
+        "state": "ALGER"
+    },
+    "esi-sba.dz": { 
+        "school": "ESI-SBA | ECOLE SUPERIEURE D INFORMATIQUE DE SIDI BEL ABBES",
+        "state": "SIDI BEL ABBES"
+    },
+    "univ-medea.dz": { 
+        "school": "UNIVERSITE MEDEA",
+        "state": "MEDEA"
+    },
+    "univ-dbkm.dz": { 
+        "school": "UNIVERSITE DJILALI BOUNAAMA KHEMIS MILIANA",
+        "state": "KHEMIS MILIANA"
+    },
+    "enst.dz": { 
+        "school": "ENST | ECOLE NATIONALE SUPERIEURE DE TECHNOLOGIE-ALGER",
+        "state": "ALGER"
+    },
+    "etu.usthb.dz": { 
+        "school": "USTHB | UNIVERSITE DES SCIENCES ET DE LA TECHNOLOGIE HOUARI-BOUMEDIENE",
+        "state": "ALGER"
+    }
+}

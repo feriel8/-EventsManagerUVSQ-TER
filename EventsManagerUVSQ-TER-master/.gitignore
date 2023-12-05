@@ -1,0 +1,12 @@
+# Project
+db/
+node_modules/
+# app/client/plugins/
+# semantic/
+
+# Output
+# app/client/build/
+
+# macOS
+.DS_Store
+.python-version

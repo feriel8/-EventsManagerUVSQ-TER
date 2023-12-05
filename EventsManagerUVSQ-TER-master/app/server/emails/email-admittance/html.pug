@@ -1,0 +1,97 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title *|MC:SUBJECT|*
+    style
+      include style.css
+  body(leftmargin='0', marginwidth='0', topmargin='0', marginheight='0', offset='0')
+    center
+      table#bodyTable(align='center', border='0', cellpadding='0', cellspacing='0', height='100%', width='100%')
+        tbody
+          tr
+            td#bodyCell(align='center', valign='top')
+              // BEGIN TEMPLATE //
+              table#templateContainer(border='0', cellpadding='0', cellspacing='0')
+                tbody
+                  tr
+                    td(align='center', valign='top')
+                      // BEGIN HEADER //
+                      table#templateHeader(border='0', cellpadding='0', cellspacing='0', width='100%')
+                        tbody
+                          tr
+                            td.headerContent(valign='top')
+                              img#headerImage(src=emailHeaderImage, style='max-width:600px;', mc:label='header_image', mc:edit='header_image', mc:allowdesigner='', mc:allowtext='')
+
+                      // // END HEADER
+                  tr
+                    td(align='center', valign='top')
+                      // BEGIN BODY //
+                      table#templateBody(border='0', cellpadding='0', cellspacing='0', width='100%')
+                        tbody
+                          tr
+                            td.bodyContent(valign='top', style='text-align: center', mc:edit='body_content00')
+                              h1 Congrats #{name},
+                              | You have been accepted to #{hackathonName}! One last important thing to remember, confirm your spot by filling in the confirmation form at your Dashboard.
+                              br
+                              |Some important information can be found in this email!
+                              br
+                              br
+                              |Here is a QR-code we've generated for you! Please TAKE A SCREENSHOT of it so you have it available even without internet!
+                              br                              
+                              |Come to the event with QR available to make the check in progress way faster, also remember to take documents that you can verify your Identity with!
+                              br
+                              img(src=qr, style='max-width:600px;', mc:label='qr_image', mc:edit='qr_image', mc:allowdesigner='', mc:allowtext='')
+                              br
+                              | In case something else has come along and you won't be able to come, you can cancel your spot so another applicant is able to join #{hackathonName}. This is done on your Dashboard.
+                              br
+                              br
+
+                              a.pink.button(href=url)
+                                | #{hackathonName} Dashboard
+                          tr
+                            td.bodyContent(valign='top', style='text-align: center', mc:edit='body_content00')
+                              | For any questions, please don't hesitate to contact us at #{emailAddress}.
+                              br
+                              | Can't wait to meet you,
+                              br
+                              |  The #{hackathonName} Team
+                      // // END BODY
+                      // BEGIN FOOTER //
+                      table(style='\
+margin: auto;\
+')
+  tbody
+    //- tr
+    //-   td(align='center' valign='top' style='padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px')
+    //-     a(href='#m_6376957834233812927_facebook-link' style='display:inline-block')
+    //-       img.CToWUd(src='https://ci4.googleusercontent.com/proxy/T1TQIISjXlVuID3_Eub3YCzfjM2L8XsQTME0QBWa9lQewdYf2zvFODrwG66Ts-P9fYxt1XtLU01kPErYPZq9T0ABiX0jkalEr7jwdp-wV15Pd7U1cw=s0-d-e1-ft?trfcallwremmrk=1&trnonsuspmrk=1#http://weekly.grapestheme.com/notify/img/social/light/facebook.png' alt='' width='40' border='0' style='border:0;line-height:100%;outline:none;text-decoration:none;height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px')
+    //-     a(href='#m_6376957834233812927_twitter-link' style='display:inline-block')
+    //-       img.CToWUd(src='https://ci3.googleusercontent.com/proxy/FGDMhHLdv-cYdas7reZRED_tMUxlPSshpGXysEpWaOOC5qoXXEIB0pUaWA631MkfBTkOx6wb8a-DqSSxsRyK6UT8YnmOdE__JckyRiCArq1BTvrf=s0-d-e1-ft?trfcallwremmrk=1&trnonsuspmrk=1#http://weekly.grapestheme.com/notify/img/social/light/twitter.png' alt='' width='40' border='0' style='border:0;line-height:100%;outline:none;text-decoration:none;height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px')
+    //-     a(href='#m_6376957834233812927_pintrest-link' style='display:inline-block')
+    //-       img.CToWUd(src='https://ci6.googleusercontent.com/proxy/pOaN9461K5ilsAjYroc9qmmzWldaE3q209yShn5CQWEC9qprNteBxCYVhPRf-42jdKPaWRPKYz1f6aqRgahCoSyXwTKOGovGGtMBOZyWIWHywRE2lg=s0-d-e1-ft?trfcallwremmrk=1&trnonsuspmrk=1#http://weekly.grapestheme.com/notify/img/social/light/pintrest.png' alt='' width='40' border='0' style='border:0;line-height:100%;outline:none;text-decoration:none;height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px')
+    //-     a(href='#m_6376957834233812927_instagram-link' style='display:inline-block')
+    //-       img.CToWUd(src='https://ci3.googleusercontent.com/proxy/MovlNoe478F6Ked7kVmIOIrXBeXLSbh-uXTjQkBPxnueOxY9z5RlTrtD3CIav6q241NSuOTdgh6QMUCFErEWN-XXG08qhsALrkKi6u0PNdXg50uDx24=s0-d-e1-ft?trfcallwremmrk=1&trnonsuspmrk=1#http://weekly.grapestheme.com/notify/img/social/light/instagram.png' alt='' width='40' border='0' style='border:0;line-height:100%;outline:none;text-decoration:none;height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px')
+    //-     a(href='#m_6376957834233812927_linkdin-link' style='display:inline-block')
+    //-       img.CToWUd(src='https://ci6.googleusercontent.com/proxy/nrdQB_fZWvlPwQAKvAiYjjU3ejLY4XD0PfUsX6nIutKw1ACEcMn_EIZ9yFFyb0DnjGK9_8q96HLqUJyzZShNnBGG7_MRz-Xj3wXli_ag4_csX_cf=s0-d-e1-ft?trfcallwremmrk=1&trnonsuspmrk=1#http://weekly.grapestheme.com/notify/img/social/light/linkdin.png' alt='' width='40' border='0' style='border:0;line-height:100%;outline:none;text-decoration:none;height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px')
+    //- tr
+    //-   td(align='center' valign='top' style='padding:10px 10px 5px')
+    //-     p(style="color:#777777;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0") &copy;&nbsp;Notify Inc. | 800 Broadway, Suite 1500 | New York, NY 000123, USA.
+    //- tr
+    //-   td(align='center' valign='top' style='padding:0px 10px 20px')
+    //-     p(style="color:#777777;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0")
+    //-       a(href='#m_6376957834233812927_' style='color:#777777;text-decoration:underline') View Web Version 
+    //-       | &nbsp;|&nbsp;
+    //-       a(href='#m_6376957834233812927_' style='color:#777777;text-decoration:underline')  Email Preferences 
+    //-       | &nbsp;|&nbsp;
+    //-       a(href='#m_6376957834233812927_' style='color:#777777;text-decoration:underline')  Privacy Policy 
+    tr
+    tr
+    tr
+
+                      
+                      // // END FOOTER
+    tr
+                    td(align='center', valign='top')
+
+                      // // END TEMPLATE
